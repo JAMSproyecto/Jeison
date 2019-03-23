@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Iniciar sesi&oacute;n</title>
+	<link href="./css/reset.min.css" rel="stylesheet">
+    <link href="./css/general.css" rel="stylesheet">
+    <link href="./css/animate.min.css" rel="stylesheet">
+    <link href="./css/inicioSesion.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <section id="sesion">
+       <form>
+	 <div>
+    <label for="txtCorreo">Correo electr&oacute;nico</label>
+    <input type="text" id="txtCorreo">
+  </div>
+	 <div>
+    <label for="txtContrasena">Contrase&ntilde;a</label>
+    <input type="password" id="txtContrasena">
+  </div>
+<div>
+  <button type="button" id="btnSesion">Iniciar sesi&oacute;n</button>
+  </div>
+	 
+</form>
+    </section>
+</main>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/sweetalert2.all.min.js"></script>
+<script src="./js/servicio_credenciales.js"></script>
+<script src="./js/funciones_autenticacion.js"></script>
+<script src="./js/controlador_inicioSesion.js"></script>	   
+</body>
+</html>

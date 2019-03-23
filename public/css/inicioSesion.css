@@ -1,0 +1,30 @@
+/*
+ * inicioSesion.css
+ * Esta hoja de estilos contiene los estilos únicos de la página de inicio de sesión.
+*/
+
+section#sesion {
+	width:50%;
+	margin: 0 auto;
+}
+
+section#sesion form div {
+	margin-bottom:15px;
+}
+
+section#sesion form fieldset.error_input,
+section#sesion form input.error_input,
+section#sesion form select.error_input,
+section#sesion form textarea.error_input {
+    border-color: #eb3b5a;
+    box-shadow: 0 0 0 .2rem rgba(235, 59, 90, .25);
+}
+
+section#sesion form fieldset:not(.error_input):focus,
+section#sesion form input:not(.error_input):focus,
+section#sesion form select:not(.error_input):focus,
+section#sesion form textarea:not(.error_input):focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
